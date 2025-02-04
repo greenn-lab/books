@@ -4,8 +4,8 @@ import { create } from '@storybook/theming/create'
 const theme = create({
   base: 'light',
   brandTitle: 'mishmash',
-  brandUrl: '/',
-  brandImage: '/mishmash.png',
+  brandUrl: './',
+  brandImage: './mishmash.png',
   brandTarget: '_self',
 
   // Theme colors - Green palette
