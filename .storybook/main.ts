@@ -13,7 +13,7 @@ const config: StorybookConfig = {
     options: {}
   },
   viteFinal: async (config) => {
-    config.base = '/tasting-sb/';
+    config.base = '/books/';
     return config;
   }
 }
