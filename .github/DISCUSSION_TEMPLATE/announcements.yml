@@ -5,3 +5,16 @@ body:
     attributes:
       value: |
         주간보고용 템플릿 입니다.
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Top 3 improvements
+      description: "What are the top 3 improvements we could make to this project?"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
