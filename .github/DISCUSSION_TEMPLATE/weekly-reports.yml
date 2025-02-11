@@ -6,6 +6,14 @@ body:
       value: |
         > 한 주, 고생한 팀원들을 위해 👏👏
   - type: textarea
+    id: greetings
+    attributes:
+      value: |
+        한 주, 고생 많으셨어요 👏
+        이렇게 또, 여러분과 함께해서 기쁘고 행복하네요.  
+        차분히 이번주를 되돌아보고, 밝은 다음주를 생각해 봐요. 😍
+      render: markdown
+  - type: textarea
     id: this-week
     attributes:
       label: 이번주
