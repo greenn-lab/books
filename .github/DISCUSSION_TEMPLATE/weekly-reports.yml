@@ -4,51 +4,55 @@ body:
   - type: markdown
     attributes:
       value: |
-        > 한 주, 고생 많으셨어요 👏
-        > 이렇게 또, 여러분과 함께해서 기쁘고 행복하네요.  
-        > 차분히 이번주를 되돌아보고, 밝은 다음주를 생각해 봐요. 😍
+        > 한 주, 고생한 팀원들을 위해 👏👏
+
+  - type: textarea
+    attributes:
+      value: |
+        한 주, 고생 많으셨어요 👏
+        이렇게 또, 여러분과 함께해서 기쁘고 행복하네요.  
+        차분히 이번주를 되돌아보고, 밝은 다음주를 생각해 봐요. 😍
+      render: text
+
   - type: textarea
     id: this-week
     attributes:
-      label: 이번주(This week)
+      label: 이번주
       description: "그래서, 이번주에 무얼 하셨나요? (So, what did you this week?)"
       value: |
+        ## 이번주
         1. `2025-12-31` 중증외상센터 시청
           - 하얗게 불태웠음
 
-        2. `2025-12-29` 
+        2. `2025-12-29` 대량의 뱀 사냥
+          - in the toilet
 
-      render: markdown
-    validations:
-      required: true
-  - type: textarea
-    id: next-week
-    attributes:
-      label: 다음주(Next week)
-      description: "그러면, 다음주엔 무얼 할건가요? (Then, what do you do next week?)"
-      value: |
+        ## 다음주
         - 기술부채 청산
           - 아내에게 리펙토링 선물 (반지는 언제나, 옳지) 
           - SOLID 원칙 위반 사례 검토 (토나올 때까지 쏠리드나...)
 
-        -
+        ---
+        
+        > [!IMPORTANT]  
+        > 다음주 월/화/수/목/금 휴가 에요. 
 
       render: markdown
     validations:
       required: true
 
-  - type: input
-    id: shared-issues
-    attributes:
-      label: 공유사항
-      description: 함께 나누고픈 내용, 뭐든 적어주세요.
+  # - type: input
+  #   id: shared-issues
+  #   attributes:
+  #     label: 공유사항
+  #     description: 함께 나누고픈 내용, 뭐든 적어주세요.
 
-  - type: checkboxes
-    attributes:
-      label: 차주 휴가일정을 알려주세요.
-      options:
-        - label: 월요일
-        - label: 화요일
-        - label: 수요일
-        - label: 목요일
-        - label: 금요일
+  # - type: checkboxes
+  #   attributes:
+  #     label: 차주 휴가일정을 알려주세요.
+  #     options:
+  #       - label: 월요일
+  #       - label: 화요일
+  #       - label: 수요일
+  #       - label: 목요일
+  #       - label: 금요일
