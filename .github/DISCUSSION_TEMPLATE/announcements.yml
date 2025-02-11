@@ -1,0 +1,55 @@
+title: "[주간업무동향] "
+labels: ["주간보고"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        주간보고용 템플릿 입니다.
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Top 3 improvements
+      description: "What are the top 3 improvements we could make to this project?"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Markdown header
+        And some more markdown
+  - type: input
+    id: has-id
+    attributes:
+      label: Suggestions
+      description: A description about suggestions to help you
+    validations:
+      required: true
+  - type: dropdown
+    id: download
+    attributes:
+      label: Which area of this project could be most improved?
+      options:
+        - Documentation
+        - Pull request review time
+        - Bug fix time
+        - Release cadence
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Check that box!
+      options:
+        - label: This one!
+          required: true
+        - label: I won't stop you if you check this one, too
+  - type: markdown
+    attributes:
+      value: |
+        ### The thrilling conclusion
+        _to our template_
