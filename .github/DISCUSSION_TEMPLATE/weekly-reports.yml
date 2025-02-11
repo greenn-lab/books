@@ -39,19 +39,3 @@ body:
       render: markdown
     validations:
       required: true
-
-  # - type: input
-  #   id: shared-issues
-  #   attributes:
-  #     label: 공유사항
-  #     description: 함께 나누고픈 내용, 뭐든 적어주세요.
-
-  # - type: checkboxes
-  #   attributes:
-  #     label: 차주 휴가일정을 알려주세요.
-  #     options:
-  #       - label: 월요일
-  #       - label: 화요일
-  #       - label: 수요일
-  #       - label: 목요일
-  #       - label: 금요일
