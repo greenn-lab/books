@@ -8,8 +8,8 @@ body:
   - type: textarea
     id: greetings
     attributes:
+      label: 한 주, 고생 많으셨어요 👏 
       value: |
-        한 주, 고생 많으셨어요 👏  
         이렇게 또, 여러분과 함께해서 기쁘고 행복하네요.    
         차분히 이번주를 되돌아보고, 밝은 다음주를 생각해 봐요. 😍  
 
@@ -17,8 +17,8 @@ body:
   - type: textarea
     id: this-week
     attributes:
-      label: 이번주
-      description: "그래서, 이번주에 무얼 하셨나요? (So, what did you this week?)"
+      label: 템플릿
+      description: "아래 템플릿을 복사해서 comment 로 작성해 주세요."
       value: |
         ## 이번주
         1. `2025-12-31` 중증외상센터 시청
